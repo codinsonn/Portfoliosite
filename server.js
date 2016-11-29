@@ -60,7 +60,7 @@ server.views({
 
   helpersPath: 'helpers',
   layoutPath: 'layouts',
-  partialsPath: 'partial_templates'
+  partialsPath: 'partials'
 
 });
 
