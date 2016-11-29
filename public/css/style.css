@@ -1,0 +1,502 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: block;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("/fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("/fonts/ProximaNova-LightItalic.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ProximaNovaBlack;
+  src: url("/fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: ProximaNovaBlack;
+  src: url("/fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("/fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("/fonts/Merriweather-BoldIt.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("/fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("/fonts/ProximaNova-LightItalic.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ProximaNovaBlack;
+  src: url("/fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: ProximaNovaBlack;
+  src: url("/fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("/fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url("/fonts/Merriweather-BoldIt.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+/* --- General & Intro -------------------------------------------------- */
+div#container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+div#content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+div.subheader {
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 40%;
+  left: 30%;
+}
+
+div.subheader div.line {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #DDDEDE;
+  z-index: 0;
+}
+
+div.subheader h2 {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 0px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #FFF;
+  color: #333333;
+  font-family: Helvetica;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+header.h {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #FFF;
+  overflow: visible;
+  z-index: 10;
+}
+
+header.h img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 8px;
+  left: 50%;
+  margin-left: -50px;
+  border-radius: 50%;
+  border: 6px solid #FFF;
+  box-shadow: 3px;
+  overflow: hidden;
+}
+
+header.h section.intro {
+  position: absolute;
+  width: 150px;
+  top: 120px;
+  left: 50%;
+  margin-left: -75px;
+  padding: 5px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #FFF;
+  border-radius: 3px;
+}
+
+article.intro-wrapper {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  background-image: url("/img/3Dbg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #010203;
+  z-index: 0;
+}
+
+article.intro-wrapper section.skillset {
+  width: 340px;
+  height: 300px;
+  margin: 90px 30px 0px 30px;
+  overflow: visisble;
+}
+
+article.intro-wrapper section.skillset h1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-weight: bold;
+}
+
+article.intro-wrapper section.skillset div.des-wrapper, article.intro-wrapper section.skillset div.dev-wrapper {
+  position: absolute;
+  display: block;
+  width: 380px;
+  border-radius: 8px;
+  padding: 15px 0px;
+  background-color: white;
+  overflow: hidden;
+}
+
+article.intro-wrapper section.skillset ul li {
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  margin: 5px 0px;
+  font-family: Helvetica;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333333;
+}
+
+article.intro-wrapper section.skillset ul li progress {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 7px;
+  width: 300px;
+  background: transparent;
+  border: none;
+}
+
+article.intro-wrapper section.skillset ul li progress[value]::-webkit-progress-bar {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 4px;
+}
+
+article.intro-wrapper section.skillset ul li progress::-moz-progress-bar {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 4px;
+}
+
+article.intro-wrapper section.skillset ul li progress[value]::-webkit-progress-value {
+  border-radius: 6px;
+}
+
+article.intro-wrapper section.skillset ul li progress[value]::-moz-progress-value {
+  border-radius: 6px;
+}
+
+/* --- Programs -------------------------------------------------- */
+section.designer {
+  float: left;
+}
+
+section.designer h1 {
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 2.8em;
+  margin-bottom: -6px;
+}
+
+section.designer div.des-wrapper {
+  float: left;
+  left: -50px;
+  -webkit-transform: skew(-10deg, 0deg);
+  -ms-transform: skew(-10deg, 0deg);
+  transform: skew(-10deg, 0deg);
+}
+
+section.designer div.des-wrapper ul {
+  text-align: left;
+  -webkit-transform: skew(10deg, 0deg);
+  -ms-transform: skew(10deg, 0deg);
+  transform: skew(10deg, 0deg);
+  margin-left: 70px;
+}
+
+section.designer div.des-wrapper ul li progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -webkit-linear-gradient(left, #09c, #f44);
+}
+
+section.designer div.des-wrapper ul li progress[value]::-moz-progress-bar {
+  background-image: -moz-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -moz-linear-gradient(left, #09c, #f44);
+}
+
+/* --- Code -------------------------------------------------- */
+section.developer {
+  float: right;
+}
+
+section.developer h1 {
+  text-align: right;
+  font-family: Arial;
+  font-size: 2.8em;
+  margin-bottom: -5px;
+}
+
+section.developer div.dev-wrapper {
+  float: right;
+  right: -50px;
+  -webkit-transform: skew(10deg, 0deg);
+  -ms-transform: skew(10deg, 0deg);
+  transform: skew(10deg, 0deg);
+}
+
+section.developer div.dev-wrapper ul {
+  text-align: right;
+  -webkit-transform: skew(-10deg, 0deg);
+  -ms-transform: skew(-10deg, 0deg);
+  transform: skew(-10deg, 0deg);
+  margin-right: 70px;
+}
+
+section.developer div.dev-wrapper ul li span.tech {
+  font-size: .8em;
+  font-weight: normal;
+  color: #333333;
+}
+
+section.developer div.dev-wrapper ul li progress {
+  float: right;
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+section.developer div.dev-wrapper ul li progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.05) 33%, rgba(0, 0, 0, 0.05) 66%, transparent 66%), -webkit-linear-gradient(-45deg, #398235 0%, #8ab66b 44%, #c9de96 100%), -webkit-linear-gradient(top, #627d4d 0%, #1f3b08 100%);
+}
+
+section.developer div.dev-wrapper ul li progress[value]::-moz-progress-bar {
+  background-image: -moz-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.05) 33%, rgba(0, 0, 0, 0.05) 66%, transparent 66%), -moz-linear-gradient(-45deg, #398235 0%, #8ab66b 44%, #c9de96 100%), -moz-linear-gradient(top, #627d4d 0%, #1f3b08 100%);
+}
+
+/* --- Social -------------------------------------------------- */
+article.on-the-web {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+article.on-the-web section.social {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 50%;
+  top: 30px;
+  margin-left: -75px;
+}
+
+article.on-the-web section.social a {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 5px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #FFF;
+  float: left;
+}
+
+article.on-the-web section.social a span {
+  display: none;
+}
+
+article.on-the-web section.social a.linkedin {
+  left: 0px;
+  background-image: url("/img/linkedin.svg");
+}
+
+article.on-the-web section.social a.behance {
+  left: 50px;
+  background-image: url("/img/behance.svg");
+}
+
+article.on-the-web section.social a.vimeo {
+  left: 100px;
+  background-image: url("/img/vimeo.svg");
+}
+
+/* --- Trivia -------------------------------------------------- */
+article.trivia {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 770px;
+  overflow: hidden;
+}
+
+article.trivia div.trivia-header {
+  top: 40px;
+}
+
+article.trivia ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+article.trivia ul li {
+  width: 100%;
+}
+
+article.trivia ul li span {
+  margin: 8px 0px;
+  display: block;
+  width: 50%;
+  color: #333333;
+  font-family: Helvetica;
+  font-size: 1.3em;
+}
+
+article.trivia ul li span.q {
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+article.trivia ul li span.a {
+  float: right;
+  text-align: left;
+  padding-left: 5px;
+}
+
+article.trivia ul li span.a a {
+  color: #333333;
+  border-bottom: 1px solid transparent;
+  text-decoration: underline;
+}

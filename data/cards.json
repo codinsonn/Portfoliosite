@@ -1,0 +1,240 @@
+{
+  "timeperiods" : [
+    {
+      "period_id" : 0,
+      "period_title" : "Het Prille Begin",
+      "period_start" : 1017,
+      "period_end" : 1275,
+      "cards" : [
+        {
+          "card_id" : 0,
+          "type" : "conflict",
+          "year" : "1017",
+          "title" : "De Slag aan de Scye",
+          "bg_img_file": "card1Bg.png",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "1017_DeSlagAanDeSchie.wav",
+              "duration": 39,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "card_id" : 1,
+          "type" : "conflict",
+          "year" : "1247",
+          "bg_img_file": "card2Bg.png",
+          "title" : "Uitvaart van Kruistochten",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "none",
+              "duration": 39,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "card_id" : 2,
+          "type" : "economical",
+          "year" : "1250",
+          "title" : "Bouw van Scye Dam",
+          "bg_img_file": "card3Bg.png",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "none",
+              "duration": 36,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "card_id" : 3,
+          "type" : "conflict",
+          "year" : "1017",
+          "title" : "De Slag aan de Scye",
+          "bg_img_file": "card4Bg.png",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "1017_DeSlagAanDeSchie.wav",
+              "duration": 39,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "card_id" : 4,
+          "type" : "conflict",
+          "year" : "1247",
+          "title" : "Uitvaart van Kruistochten",
+          "bg_img_file": "card5Bg.png",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "none",
+              "duration": 39,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "card_id" : 5,
+          "type" : "economical",
+          "year" : "1250",
+          "title" : "Bouw van Scye Dam",
+          "video_file" : "DeSlagAanDeScye.mp4",
+          "bg_img_file": "card6Bg.png",
+          "dialogues" : [
+            {
+              "family_tree_id": 0,
+              "audio_file": "none",
+              "duration": 36,
+              "lines": [
+                {
+                  "line_id" : 0,
+                  "secondsOfDuration" : 8,
+                  "line" : "Toen onzen Graaf Dirk weigerde om zijn tol op koopvaarders van Merwede op te heffen, stuurde Keizer Hendrik II zijn leger richting Vlaardingen."
+                },{
+                  "line_id" : 1,
+                  "secondsOfDuration" : 6,
+                  "line" : "Wanneer het keizerlijke leger aan den horizon verscheen, vluchten velen richting den Burcht van onzen graaf."
+                },{
+                  "line_id" : 2,
+                  "secondsOfDuration" : 8,
+                  "line" : "Wij schuilden in den moerasse, waar de keizerlijke strijders moeilijk doorheen konden. Vandaar glimpsten we den oorlog tussen hen en den graaf zijn troepen."
+                },{
+                  "line_id" : 3,
+                  "secondsOfDuration" : 7,
+                  "line" : "Ik zal nooit vergeten toen Graaf Dirk na veel vechten met den gevangen hertog Godfried zijn brucht binnenreed."
+                },{
+                  "line_id" : 4,
+                  "secondsOfDuration" : 7,
+                  "line" : "Met onzen hulp had hij den keizer Hendrik verslagen en verklaarden we ons later het onafhankelijk graafschap Holland."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
