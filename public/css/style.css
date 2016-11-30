@@ -731,7 +731,7 @@ header.h section.intro {
     top: 50px;
     left: 0px;
     width: 100%;
-    height: 700px;
+    height: 720px;
     overflow: hidden;
   }
   article.projects div.projects-header {
@@ -742,7 +742,7 @@ header.h section.intro {
     top: 100px;
     left: 0px;
     width: 100%;
-    height: 600px;
+    height: 620px;
     overflow: hidden;
     background-color: #333333;
   }
@@ -768,14 +768,14 @@ header.h section.intro {
   article.projects div.projects-overview {
     position: relative;
     width: 800%;
-    height: 600px;
+    height: 620px;
     overflow: hidden;
     background-color: #010203;
   }
   article.projects div.projects-overview section.project {
     position: relative;
     width: 12.5%;
-    height: 600px;
+    height: 620px;
     float: left;
     background-size: cover;
     background-position: center;
@@ -795,7 +795,7 @@ header.h section.intro {
     height: auto;
     top: 230px;
     left: 10%;
-    padding: 20px 30px;
+    padding: 15px 20px;
     border-radius: 3px;
     background-color: white;
     z-index: 10;
@@ -816,7 +816,7 @@ header.h section.intro {
     font-family: Tahoma;
     font-size: 1.2em;
     text-align: left;
-    line-height: 19px;
+    line-height: 20px;
     color: #333333;
   }
 }
