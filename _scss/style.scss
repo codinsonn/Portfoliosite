@@ -775,6 +775,120 @@ header.h {
 
 }
 
+@media all and (max-width: 800px) {
+
+  article.projects {
+
+    position: relative;
+    top: 50px; left: 0px;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+
+    div.projects-header {
+      top: 40px;
+    }
+
+    div.projects-wrapper {
+      position: absolute;
+      top: 100px; left: 0px;
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+      background-color: #333333;
+
+      div.next, div.prev {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 270px;
+        border-radius: 50%;
+        border: 2px solid #FFF;
+        background-size: cover;
+        background-position: center;
+        z-index: 10;
+      }
+
+      div.prev {
+        left: 1px;
+        background-image: url('/img/ArrowPrevButton.png');
+      }
+
+      div.next {
+        right: 1px;
+        background-image: url('/img/ArrowNextButton.png');
+      }
+
+    }
+
+    div.projects-overview {
+
+      position: relative;
+      width: 800%;
+      height: 600px;
+      overflow: hidden;
+      background-color: #010203;
+
+      section.project {
+
+        position: relative;
+        width: 12.5%;
+        height: 600px;
+        float: left;
+        background-size: cover;
+        background-position: center;
+
+        img {
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          top: 0px;
+          left: 50%;
+          margin-left: -150px;
+          //background-color: rgba(255, 255, 255, .4);
+          z-index: 0;
+        }
+
+        div.project-info {
+
+          position: absolute;
+          width: 80%;
+          height: auto;
+          top: 230px;
+          left: 10%;
+          padding: 20px 30px;
+          border-radius: 3px;
+          background-color: rgba(255, 255, 255, 1);
+          z-index: 10;
+
+          h2 {
+            margin-bottom: 15px;
+            font-family: Helvetica;
+            font-size: 2.4em;
+            font-weight: bold;
+            color: #333333;
+            a { color: inherit; text-decoration: none; }
+          }
+
+          p {
+            margin-bottom: 5px;
+            font-family: Tahoma;
+            font-size: 1.2em;
+            text-align: left;
+            line-height: 19px;
+            color: #333333;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
 /* --- Trivia -------------------------------------------------- */
 
 @media all and (min-width: 801px) {
@@ -905,63 +1019,117 @@ header.h {
 
 /* --- Social -------------------------------------------------- */
 
-article.on-the-web {
+@media all and (min-width: 801px) {
 
-  position: relative;
-  top: 50px; left: 0px;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
+  article.on-the-web {
 
-  section.social {
+    position: relative;
+    top: 50px; left: 0px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    left: 50%;
-    top: 30px;
-    margin-left: -75px;
+    section.social {
 
-    a {
-      display: block;
       position: absolute;
-      width: 50px;
+      width: 150px;
       height: 50px;
-      bottom: 5px;
-      background-repeat: no-repeat;
-      background-size: 40px 40px;
-      background-position: center;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-      background-color: #FFF;
-      float: left;
-      span { display: none; }
-    }
+      left: 50%;
+      top: 30px;
+      margin-left: -75px;
 
-    a.linkedin {
-      left: 0px;
-      background-image: url('/img/linkedin.svg');
-    }
+      a {
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 5px;
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+        background-position: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: #FFF;
+        float: left;
+        span { display: none; }
+      }
 
-    a.behance {
-      left: 50px;
-      background-image: url('/img/behance.svg');
-    }
+      a.linkedin {
+        left: 0px;
+        background-image: url('/img/linkedin.svg');
+      }
 
-    a.vimeo {
-      left: 100px;
-      background-image: url('/img/vimeo.svg');
+      a.behance {
+        left: 50px;
+        background-image: url('/img/behance.svg');
+      }
+
+      a.vimeo {
+        left: 100px;
+        background-image: url('/img/vimeo.svg');
+      }
+
     }
 
   }
 
 }
 
+@media all and (max-width: 800px) {
 
+  article.on-the-web {
 
+    position: relative;
+    top: 0px; left: 0px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 
+    section.social {
 
+      position: absolute;
+      width: 150px;
+      height: 50px;
+      left: 50%;
+      top: 30px;
+      margin-left: -75px;
 
+      a {
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 5px;
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+        background-position: center;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: #FFF;
+        float: left;
+        span { display: none; }
+      }
+
+      a.linkedin {
+        left: 0px;
+        background-image: url('/img/linkedin.svg');
+      }
+
+      a.behance {
+        left: 50px;
+        background-image: url('/img/behance.svg');
+      }
+
+      a.vimeo {
+        left: 100px;
+        background-image: url('/img/vimeo.svg');
+      }
+
+    }
+
+  }
+
+}
 
 
 

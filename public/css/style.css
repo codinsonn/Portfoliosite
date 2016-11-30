@@ -725,6 +725,102 @@ header.h section.intro {
   }
 }
 
+@media all and (max-width: 800px) {
+  article.projects {
+    position: relative;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+  }
+  article.projects div.projects-header {
+    top: 40px;
+  }
+  article.projects div.projects-wrapper {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  article.projects div.projects-wrapper div.next, article.projects div.projects-wrapper div.prev {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 270px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+  }
+  article.projects div.projects-wrapper div.prev {
+    left: 1px;
+    background-image: url("/img/ArrowPrevButton.png");
+  }
+  article.projects div.projects-wrapper div.next {
+    right: 1px;
+    background-image: url("/img/ArrowNextButton.png");
+  }
+  article.projects div.projects-overview {
+    position: relative;
+    width: 800%;
+    height: 600px;
+    overflow: hidden;
+    background-color: #010203;
+  }
+  article.projects div.projects-overview section.project {
+    position: relative;
+    width: 12.5%;
+    height: 600px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+  }
+  article.projects div.projects-overview section.project img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 0;
+  }
+  article.projects div.projects-overview section.project div.project-info {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 230px;
+    left: 10%;
+    padding: 20px 30px;
+    border-radius: 3px;
+    background-color: white;
+    z-index: 10;
+  }
+  article.projects div.projects-overview section.project div.project-info h2 {
+    margin-bottom: 15px;
+    font-family: Helvetica;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #333333;
+  }
+  article.projects div.projects-overview section.project div.project-info h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  article.projects div.projects-overview section.project div.project-info p {
+    margin-bottom: 5px;
+    font-family: Tahoma;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 19px;
+    color: #333333;
+  }
+}
+
 /* --- Trivia -------------------------------------------------- */
 @media all and (min-width: 801px) {
   article.trivia {
@@ -821,54 +917,98 @@ header.h section.intro {
 }
 
 /* --- Social -------------------------------------------------- */
-article.on-the-web {
-  position: relative;
-  top: 50px;
-  left: 0px;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
+@media all and (min-width: 801px) {
+  article.on-the-web {
+    position: relative;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  article.on-the-web section.social {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    top: 30px;
+    margin-left: -75px;
+  }
+  article.on-the-web section.social a {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #FFF;
+    float: left;
+  }
+  article.on-the-web section.social a span {
+    display: none;
+  }
+  article.on-the-web section.social a.linkedin {
+    left: 0px;
+    background-image: url("/img/linkedin.svg");
+  }
+  article.on-the-web section.social a.behance {
+    left: 50px;
+    background-image: url("/img/behance.svg");
+  }
+  article.on-the-web section.social a.vimeo {
+    left: 100px;
+    background-image: url("/img/vimeo.svg");
+  }
 }
 
-article.on-the-web section.social {
-  position: absolute;
-  width: 150px;
-  height: 50px;
-  left: 50%;
-  top: 30px;
-  margin-left: -75px;
-}
-
-article.on-the-web section.social a {
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  bottom: 5px;
-  background-repeat: no-repeat;
-  background-size: 40px 40px;
-  background-position: center;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background-color: #FFF;
-  float: left;
-}
-
-article.on-the-web section.social a span {
-  display: none;
-}
-
-article.on-the-web section.social a.linkedin {
-  left: 0px;
-  background-image: url("/img/linkedin.svg");
-}
-
-article.on-the-web section.social a.behance {
-  left: 50px;
-  background-image: url("/img/behance.svg");
-}
-
-article.on-the-web section.social a.vimeo {
-  left: 100px;
-  background-image: url("/img/vimeo.svg");
+@media all and (max-width: 800px) {
+  article.on-the-web {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  article.on-the-web section.social {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    top: 30px;
+    margin-left: -75px;
+  }
+  article.on-the-web section.social a {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #FFF;
+    float: left;
+  }
+  article.on-the-web section.social a span {
+    display: none;
+  }
+  article.on-the-web section.social a.linkedin {
+    left: 0px;
+    background-image: url("/img/linkedin.svg");
+  }
+  article.on-the-web section.social a.behance {
+    left: 50px;
+    background-image: url("/img/behance.svg");
+  }
+  article.on-the-web section.social a.vimeo {
+    left: 100px;
+    background-image: url("/img/vimeo.svg");
+  }
 }
