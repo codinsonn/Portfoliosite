@@ -424,13 +424,11 @@ header.h section.intro {
   section.designer div.des-wrapper {
     float: left;
     left: -50px;
-    -webkit-transform: skew(-10deg, 0deg);
     -ms-transform: skew(-10deg, 0deg);
     transform: skew(-10deg, 0deg);
   }
   section.designer div.des-wrapper ul {
     text-align: left;
-    -webkit-transform: skew(10deg, 0deg);
     -ms-transform: skew(10deg, 0deg);
     transform: skew(10deg, 0deg);
     margin-left: 70px;
@@ -458,13 +456,11 @@ header.h section.intro {
   section.designer div.des-wrapper {
     float: left;
     left: -50px;
-    -webkit-transform: skew(-10deg, 0deg);
     -ms-transform: skew(-10deg, 0deg);
     transform: skew(-10deg, 0deg);
   }
   section.designer div.des-wrapper ul {
     text-align: left;
-    -webkit-transform: skew(10deg, 0deg);
     -ms-transform: skew(10deg, 0deg);
     transform: skew(10deg, 0deg);
     margin-left: 70px;
@@ -491,13 +487,11 @@ header.h section.intro {
   section.developer div.dev-wrapper {
     float: right;
     right: -50px;
-    -webkit-transform: skew(10deg, 0deg);
     -ms-transform: skew(10deg, 0deg);
     transform: skew(10deg, 0deg);
   }
   section.developer div.dev-wrapper ul {
     text-align: right;
-    -webkit-transform: skew(-10deg, 0deg);
     -ms-transform: skew(-10deg, 0deg);
     transform: skew(-10deg, 0deg);
     margin-right: 70px;
@@ -509,7 +503,6 @@ header.h section.intro {
   }
   section.developer div.dev-wrapper ul li progress {
     float: right;
-    -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
   }
@@ -536,13 +529,11 @@ header.h section.intro {
   section.developer div.dev-wrapper {
     float: right;
     right: -50px;
-    -webkit-transform: skew(10deg, 0deg);
     -ms-transform: skew(10deg, 0deg);
     transform: skew(10deg, 0deg);
   }
   section.developer div.dev-wrapper ul {
     text-align: right;
-    -webkit-transform: skew(-10deg, 0deg);
     -ms-transform: skew(-10deg, 0deg);
     transform: skew(-10deg, 0deg);
     margin-right: 70px;
@@ -554,7 +545,6 @@ header.h section.intro {
   }
   section.developer div.dev-wrapper ul li progress {
     float: right;
-    -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
   }

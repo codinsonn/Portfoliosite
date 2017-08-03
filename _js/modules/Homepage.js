@@ -8,7 +8,7 @@ export default class Homepage {
 
     // -- Class Variables -------------
     this.currentProject = 1;
-    this.lastProject = 6;
+    this.lastProject = 7;
 
     // -- Element Variables ----------
     this.$btnPrev = document.querySelector('.prev');
